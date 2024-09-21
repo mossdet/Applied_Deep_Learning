@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "adl"
+version = "0.1.0"
+description = "Applied Deep Learning"
+authors = ["mossdet <mossdet.detector@gmail.com>"]
+readme = "README.md"
+packages = [{include = "adl"}]
+
+[tool.poetry.dependencies]
+python = "3.11.8"
+jupyterlab = "^4.2.5"
+torch = {version = "^2.4.1+cu121", source = "pytorch-gpu"}
+torchvision = {version = "^0.19.1+cu121", source = "pytorch-gpu"}
+torchaudio = {version = "^2.4.1+cu121", source = "pytorch-gpu"}
+mpl-tools = "^0.4.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+
+
+[[tool.poetry.source]]
+name = "pytorch-gpu"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
