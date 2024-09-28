@@ -1,0 +1,19 @@
+##############################
+17.09.2024
+- Intro
+- What is Deep Learning
+- Math OF ANN
+
+##############################
+21.09.2024
+- Deep Learning Best Practices
+- Regularization
+Lab
+- Intro to Pytorch
+
+##############################
+24.09.2024
+- Computer Vision Introduction
+- LeNet
+- Transfer Learning
+	- AlexNet
